@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #bbb;
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+    padding: 60px 0px 60px;
+    color: white;
+}
+.add-todo{
+    color: #000;
+}
+
+.flex-button{
+    display: inline;
+    width: 100%;
+}
+
+input{
+    border:none;
+}
+input[type='text']{
+    width: 70%;
+    padding: 5px 10px;
+    outline: none;
+    font-size: 1.2rem;
+    margin-right: -4px;
+    color: #000;
+    background-color: #ffffff;
+    cursor:pointer;
+}
+input[type='text']:disabled{
+    cursor:default;
+    color: #000;
+    background-color:transparent;
+}
+input[type='button']{
+    padding: 7px;
+    font-size: 1.04rem;
+    color:white;
+    margin: 0 -3px;
+}
+#add-btn{
+    margin-right: -4px;
+    background-color: #e9adad;
+}
+
+#del-btn{
+    background-color: transparent;
+}
+
+.new-tasks{
+    margin: 25px auto;
+}
+.update-task{
+    margin-left: 10px;
+    background-color: transparent;
+}
+.rename-task{
+    background-color: transparent;
+}
+
+
+.del-task{
+    background-color: transparent;
+}
+
+.task{
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.clear-btn{
+    display: flex;
+    justify-content: center;
+    padding: 0px 15px 0px 15px;
+    background: #00ffff;
+    border-radius: 10px;
+}
