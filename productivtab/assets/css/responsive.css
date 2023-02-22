@@ -1,0 +1,28 @@
+@media (max-width: 767px) {
+    .main-box {
+      position: absolute;
+      width: 100%;
+      padding: 15px 15px;
+      top: calc(18% - 50px);
+      left: calc(0% - 0px);
+    }
+  
+  
+  
+    .search-bar input {
+      width: 100%;
+    }
+  
+    .recepies-div {
+      width: 100%;
+      margin: 0px 0px;
+    }
+  
+  
+  .optionsCard{
+    width: 100% !important;
+  }
+  }
+
+
+
